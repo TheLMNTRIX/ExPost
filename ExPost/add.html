@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>ExPost</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>Ex</span>Post</h2>
+        <nav class="navigation">
+            <button class="btnLogin-popup" onclick="redirectToHome()"><strong>Return</strong></button>
+         </nav>
+    </header>
+    <div class="container modCon">
+        <div class="formTab formadd">
+            <form action="#">
+                <div class="head1">
+                <span>Shipment</span> Details
+            </div>
+            <div class="forminfo">
+                <div class="formcolumn">
+                <label class="lbl">Consignor's Full Name: </label>
+                <input type="text" name="ID" id="ID" placeholder=""  class="ID" maxlength="20" required></input>
+                <label class="lbl">Consignor's Phone Number: </label>
+                <input type="text" name="add" id="add" placeholder=""  class="ID" maxlength="10" required></input>
+                <label class="lbl">Consignor's Email: </label>
+                <input type="text" name="add" id="add" placeholder=""  class="ID" required></input>
+                <label class="lbl">Consignor's Residence: </label>
+                <input type="text" name="ID" id="ID" placeholder=""  class="ID" maxlength="50" required></input>
+                </div>
+                <div class="formcolumn">
+                    <label class="lbl">Pickup Address: </label>
+                    <input type="text" name="ID" id="ID" placeholder=""  class="ID" maxlength="50" required></input>
+                    <label class="lbl">Pickup Location Pincode: </label>
+                    <input type="text" name="add" id="add" placeholder=""  class="ID" required></input>
+                    <label class="lbl">Delivery Address: </label>
+                    <input type="text" name="add" id="add" placeholder=""  class="ID" maxlength="50" required></input>
+                    <label class="lbl">Delivery Location Pincode: </label>
+                    <input type="text" name="ID" id="ID" placeholder=""  class="ID" required></input>
+                </div>
+                <div class="formcolumn">
+                    <label class="lbl">Consignee's Name: </label>
+                    <input type="text" name="ID" id="ID" placeholder=""  class="ID" maxlength="20" required></input>
+                    <label class="lbl">Consignee's Phone Number: </label>
+                    <input type="text" name="add" id="add" placeholder=""  class="ID" maxlength="10" required></input>
+                    <label class="lbl">Item Weight: </label>
+                    <input type="text" name="add" id="add" placeholder=""  class="ID" required></input>
+                </div>
+                <input type="submit" value="Submit" class="submit sbmt"></input>
+            </div>
+                  
+            </form>
+        </div>
+    </div>    
+<script src="script.js"></script>
+
+</body>
+</html>
